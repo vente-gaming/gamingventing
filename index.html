@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente Gaming Destockage</title>
+    <!-- Styles CSS -->
+    <style>
+        body {
+            background-color: #121212; /* Couleur de fond sombre */
+            color: #FFFFFF; /* Couleur du texte blanc */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            max-width: 90%;
+            margin: 50px auto;
+            border: 2px solid #AAAAAA; /* Bordure grise */
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            background-color: #1f1f1f; /* Fond sombre */
+        }
+        .carousel {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .carousel img {
+            width: auto;
+            max-width: 100%;
+            height: 300px; /* Hauteur fixe pour toutes les images */
+            border-radius: 5px;
+            margin-bottom: 20px;
+            transition: transform 0.5s ease;
+        }
+        .carousel img:hover {
+            transform: scale(0.9); /* Redimensionnement au survol */
+        }
+        .carousel-container {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        #paypal-container-Z8XSWSW7SAJLE {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        /* Style pour le conteneur de l'image et du bouton PayPal */
+        .image-container {
+            position: relative;
+        }
+        .paypal-button-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 1; /* Affiche le bouton PayPal par défaut */
+        }
+        .image-container:hover .paypal-button-overlay {
+            opacity: 1; /* Affiche le bouton PayPal au survol de l'image */
+        }
+        .specs {
+            text-align: left;
+            margin-top: 30px;
+        }
+        .specs h2 {
+            color: #FFD700; /* Couleur dorée pour les titres des caractéristiques */
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenu de la page -->
+    <div id="container">
+        <h1 style="color: #FFD700;">Vente Gaming Destockage</h1> <!-- Titre doré -->
+        <!-- Conteneur pour le carrousel -->
+        <div class="carousel" onmousemove="moveCarousel(event)">
+            <div class="carousel-container">
+                <!-- Images du carrousel -->
+                <img src="image0.jpg" alt="Image 0">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+                <img src="image4.jpg" alt="Image 4">
+                <img src="image5.jpg" alt="Image 5">
+                <img src="image6.jpg" alt="Image 6">
+            </div>
+        </div>
+        <!-- Description de l'entreprise -->
+        <p>Profitez de notre destockage massif pour renouveler votre setup gaming à moindre coût !</p> <!-- Texte accrocheur -->
+        <!-- Description de l'ordinateur -->
+        <div class="specs">
+            <h2>Caractéristiques</h2>
+            <p><strong>Marque du processeur:</strong> INTEL</p>
+            <p><strong>Modèle du processeur:</strong> Intel Core i9 12900HX</p>
+            <p><strong>Processeur:</strong> Intel Core i9 12900HX</p>
+            <p><strong>Mémoire cache du processeur:</strong> 30 Mo</p>
+            <p><strong>Fréquence du processeur:</strong> 5.00 GHz</p>
+            <p><strong>Caractéristiques de l'écran:</strong> QHD, 240 Hz, 100 % DCI-P3 (typique), dalle OLED</p>
+            <p><strong>Taille de l'écran (pouces):</strong> 15.6"</p>
+            <p><strong>RAM installée:</strong> 32 Go</p>
+            <p><strong>Marque de la carte graphique:</strong> nVidia</p>
+            <p><strong>Modèle de la carte graphique:</strong> Nvidia GeForce RTX 3070 Ti</p>
+            <p><strong>Détail de la carte graphique:</strong> Nvidia GeForce RTX 3070 Ti</p>
+            <p><strong>Mémoire vidéo dédiée:</strong> 8 Go</p>
+            <p><strong>Type mémoire vidéo:</strong> GDDR6</p>
+            <p><strong>Stockage total:</strong> 32 Go RAM 1 To SSD</p>
+            <p><strong>Capacité du disque SSD:</strong> 1 To</p>
+            <p><strong>Capacité du disque dur eMMC:</strong> 32 Go</p>
+            <p><strong>Choix durable:</strong> Non</p>
+            <p><strong>Type de disque dur:</strong> SSD</p>
+            <p><strong>Résolution maximale de la carte graphique:</strong> 2560 x 1440 pixels</p>
+            <p><strong>Ecran tactile:</strong> Non</p>
+            <p><strong>Mémoire maximale installable:</strong> 64 Go</p>
+            <p><strong>Nombre d'emplacement mémoire utilisé:</strong> 2</p>
+            <p><strong>Type de mémoire vive installée:</strong> DDR5</p>
+            <p><strong>Lecteur de cartes mémoire:</strong> Oui SD Express</p>
+            <p><strong>Communications sans fil:</strong> Bluetooth, Wi-Fi</p>
+            <p><strong>Connectique:</strong> 1 Ethernet RJ-45, 1 HDMI, 1 USB Type C USB 3.2, 4 Thunderbolt 1, 3 USB 3.2</p>
+            <p><strong>Couleur:</strong> Noir</p>
+            <p><strong>Système d'exploitation:</strong> Microsoft Windows 11 Pro</p>
+        </div>
+        <!-- Conteneur pour le bouton PayPal -->
+        <div id="paypal-container-Z8XSWSW7SAJLE"></div>
+    </div>
+
+    <!-- Script PayPal -->
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAwBG2EroEZPJ17eBuUBioPbpb0hOhwhg1NoGFJ1T-rycfzHULl33Apt2RyP0GnJbpoqyzDtM8QWQ9S9g&components=hosted-buttons&disable-funding=venmo&currency=EUR"></script>
+    <script>
+        function moveCarousel(event) {
+            const carousel = document.querySelector('.carousel-container');
+            const movement = (event.clientX / window.innerWidth - 0.5) * 100;
+            carousel.style.transform = `translateX(-${movement}px)`;
+        }
+
+        document.addEventListener("DOMContentLoaded", (event) => {
+            paypal.HostedButtons({
+                hostedButtonId: "Z8XSWSW7SAJLE"
+            }).render("#paypal-container-Z8XSWSW7SAJLE");
+        });
+    </script>
+</body>
+</html>
